@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Design by http://www.dreamtemplate.com */
+@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#929292;
+	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+}
+html, .main {
+	padding:0;
+	margin:0;
+}
+.main {
+	background:#f8f8f8;
+}
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+h2 {
+	margin:8px 0;
+	padding:8px 0;
+	font-size:25px;
+	font-weight:bold;
+	color:#353c3e;
+}
+p {
+	margin:8px 0;
+	padding:0 0 8px 0;
+}
+a {
+	color:#0087c7;
+	text-decoration:underline;
+}
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
+	margin:0;
+	padding:0;
+}
+.header {
+}
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:960px;
+}
+.logo {
+	padding:0;
+	float:center;
+	width:auto;
+	height:120px;
+}
+h1 {
+	margin:0;
+	padding:50px 0 0;
+	font-size:48px;
+	font-weight:normal;
+	line-height:1.2em;
+	text-transform:none;
+	
+}
+h1 a, h1 a:hover {
+	color:#000;
+	text-decoration:none;
+	alignment-adjust:central;
+}
+h1 span {
+}
+h1 small {
+	display:block;
+	margin:-4px 0;
+	padding-left:160px;
+	font-size:20px;
+	line-height:1.2em;
+	letter-spacing:normal;
+	text-transform:none;
+	color:#fff;
+}
+.slider {
+	padding:0;
+	background:no-repeat left bottom;
+}
+.rss {
+	padding:18px 20px 0 0;
+	float:right;
+	width:auto;
+}
+.rss p {
+	margin:0;
+	padding:0;
+	float:right;
+	width:auto;
+	color:#fff;
+	font-size:13px;
+	line-height:1.5em;
+	font-weight:bold;
+}
+.rss a {
+	color:#fff;
+	text-decoration:none;
+}
+.rss a:hover {
+	text-decoration:underline;
+}
+.rss img {
+	margin:-3px 0 -3px 6px;
+	border:none;
+}
+
+.content {
+	padding:0;
+}
+.content_resize {
+	margin:0 auto;
+	padding:18px 0;
+	width:500px;
+}
+.content .mainbar {
+	margin:0;
+	padding:0;
+	float:left;
+	width:450px;
+}
+.content .mainbar h2 {
+	margin-bottom:0;
+	padding-bottom:12px;
+	font-size:30px;
+	line-height:1.2em;
+}
+.content .mainbar div.img {
+	padding:0 0 12px;
+	float:left;
+}
+.content .mainbar img {
+}
+.content .mainbar img.fl {
+	margin:0;
+	padding:0;
+	background:#fff;
+	border:none;
+}
+.content .mainbar .article {
+	margin:0 0 32px;
+	padding:0 20px 16px;
+	border:1px solid #ddd;
+	background:#fff url(../images/article_bg.gif) repeat-x left top;
+}
+.content .mainbar .post_content {
+}
+.content .mainbar .post_content strong {
+	color:#353c3e;
+}
+.content {
+	padding:0;
+	float:right;
+	width:100%;
+}
+.content {
+	margin:0 0 12px;
+	padding:12px 20px 24px;
+}
+
+.content .mainbar .post_content a.rm {
+	float:left;
+	margin:0 0 16px;
+	font-size:12px;
+	font-weight:normal;
+	text-transform:none;
+	color:#0087c7;
+	text-decoration:none;
+}
+.content p.pages {
+	margin:0;
+	padding:24px 0;
+	font-size:11px;
+	color:#929292;
+	text-align:left;
+}
+.content p.pages span, .content p.pages a {
+	padding:8px 12px;
+	text-decoration:none;
+}
+.content p.pages span, .content p.pages a:hover {
+	color:#fff;
+	background:#d2d2d2;
+}
+.content p.pages a {
+	color:#929292;
+}
+.content p.pages small {
+	font-size:12px;
+	float:right;
+}
+.content .mainbar .comment {
+	margin:0;
+	padding:16px 0 0 0;
+}
+.content .mainbar .comment img.userpic {
+	border:1px solid #dedede;
+	margin:10px 16px 0 0;
+	padding:0;
+	float:left;
+}
+
+ol {
+	list-style:none;
+}
+ol li {
+	display:block;
+	clear:both;
+}
+ol li label {
+	display:block;
+	margin:0;
+	padding:16px 0 0 0;
+}
+ol li input.text {
+	width:400px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:5px 2px;
+	height:16px;
+	background-color:#fff;
+}
+ol li textarea {
+	width:400px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:2px;
+	background-color:#fff;
+}
+ol li .send {
+	margin:16px 0 0 0;
+}
+
+.footer {
+	background:#1c1c1c;
+}
+.footer_resize {
+	margin:0 auto;
+	padding:0 20px;
+	width:920px;
+	line-height:1.5em;
+	color:#6b6b6b;
+	border-top:1px solid #434444;
+}
+.footer_resize p {
+	margin:24px 0;
+	padding:0;
+	line-height:normal;
+	white-space:nowrap;
+	text-indent:inherit;
+}
+.footer_resize a {
+	color:#dbdbdb;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:underline;
+	background-color:transparent;
+}
+.footer_resize a:hover {
+	color:#dbdbdb;
+	background-color:transparent;
+	text-decoration:none;
+}
+.footer_resize .lf {
+	float:left;
+}
+.footer_resize .rf {
+	float:right;
+}
+a {
+	outline:none;
+}
+
